@@ -1,23 +1,40 @@
-Instalación y ejecución
-Descargar el repositorio y entrar en la carpeta "Proyecto_Web":
-cd Proyecto_web
+- Instalación y ejecución
+
+- Descargar el repositorio y entrar en la carpeta "Proyecto_Web":
+
+- cd Proyecto_web
 o ejecutar una terminal dentro de la carpeta
-Crear y activar el ambiente virtual:
+
+- Crear y activar el ambiente virtual:
+ 
 python -m venv .venv (Windows)
 python3 -m venv .venv (Linux/Mac)
-Activar el ambiente virtual (Windows PowerShell):
-.venv\Scripts\Activate.ps1
+
+- Activar el ambiente virtual (Windows PowerShell):
+- .venv\Scripts\Activate.ps1
 Si falla la activación por políticas:
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
-.venv\Scripts\Activate.ps1
-Linux/Mac:
-source .venv/bin/activate
-Instalar dependencias:
-pip install -r requirements.txt
-Ejecutar el servidor:
-python manage.py runserver
-Abrir en el navegador:
-http://127.0.0.1:8000/admin/
-Credenciales
-usuario: inacap
-password: inacap
+
+- Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
+
+- .venv\Scripts\Activate.ps1
+
+- Linux/Mac:
+-source .venv/bin/activate
+
+- Instalar dependencias:
+
+- pip install -r requirements.txt
+
+- Ejecutar el servidor:
+
+- python manage.py runserver
+
+- Abrir en el navegador:
+
+-http://127.0.0.1:8000/admin/
+
+- Credenciales
+
+- usuario: inacap
+
+- password: inacap
